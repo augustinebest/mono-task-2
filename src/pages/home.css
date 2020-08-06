@@ -148,6 +148,10 @@
     /* Firefox */
 }
 
+._bank {
+    width: 30px; height: 30px;
+}
+
 .search_block input:-ms-input-placeholder {
     font-size: 13px;
     color: var(--header-color);

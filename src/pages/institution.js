@@ -6,6 +6,7 @@ import polaris from '../assets/polaris.svg';
 import cowyrise from '../assets/cowyrise.svg'
 import piggyvest from '../assets/piggyvest.svg'
 import { NavLink } from 'react-router-dom';
+import bank from '../assets/bank.svg'
 
 const Institution = (props) => {
     return (
@@ -17,7 +18,7 @@ const Institution = (props) => {
                     </div>
                 </NavLink>
                 <div className='text_1 mt-4'>
-                    <div>Select a financial institution 🏦</div>
+                    <div>Select a financial institution <img src={bank} className='_bank'/></div>
                 </div>
                 <div className='search_block'>
                     <img src={searchIcon} />
